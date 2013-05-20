@@ -1,4 +1,3 @@
 willklein.github.com
 ====================
-
-personal blog
+Personal blog of Will Klein
