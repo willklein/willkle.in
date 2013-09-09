@@ -6222,21 +6222,27 @@ h1 > a:hover {
 }
 
 #content > section {
+    float: left;
     margin-left: 20px;
 }
 
 #posts {
-    float: left;
     width: 620px;
-    margin-bottom: 100px;
 }
 
 #projects {
-    float: left;
     width: 300px;
+}
+
+#talks {
+    width: 920px;
 }
 
 #content .postTitle,
 #content a {
     font-weight: bold;
+}
+
+.article {
+    margin-bottom: 100px;
 }
