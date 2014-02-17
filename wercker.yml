@@ -10,6 +10,6 @@ build:
         code: ./node_modules/.bin/wintersmith build -v -o ./build
 deploy:
   steps:
-    - gh-pages:
+    - lukevivier/gh-pages:
         token: $GIT_TOKEN
         basedir: build
