@@ -6218,7 +6218,7 @@ h1 > a:hover {
 }
 
 #content:after {
-    /*clear: both;*/
+    clear: both;
 }
 
 #content > section {
@@ -6245,4 +6245,10 @@ h1 > a:hover {
 
 .article {
     margin-bottom: 100px;
+}
+
+#footer {
+    margin: 25px 0;
+    width: 920px;
+    text-align: center;
 }
