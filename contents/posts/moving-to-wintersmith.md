@@ -4,7 +4,7 @@ date: 2014-02-17
 template: post.jade
 ---
 
-I finally moved [willkle.in](http://willkle.in) to a proper static site generator: [Wintersmith](http://wintersmith.io). I've been testing Wintersmith for a while, and this past week I finally ironed out the details. I started with straight HTML, including some [Bootstrap](http://getbootstrap.com/), JS analytics, and [Disqus](http://disqus.com/). It took a while to port my HTML into [Jade](http://jade-lang.com/) templates and to get the content flowing correctly. There's more I plan to do, but here's my progress so far.
+I finally moved [willkle.in](https://github.com/willklein/willkle.in) to a proper static site generator: [Wintersmith](http://wintersmith.io). I've been testing Wintersmith for a while, and this past week I finally ironed out the details. I started with straight HTML, including some [Bootstrap](http://getbootstrap.com/), JS analytics, and [Disqus](http://disqus.com/). It took a while to port my HTML into [Jade](http://jade-lang.com/) templates and to get the content flowing correctly. There's more I plan to do, but here's my progress so far.
 
 I decided to stick with [GitHub Pages](http://pages.github.com) for hosting, which includes [Jekyll](http://jekyllrb.com/) out of the box. Jekyll works fine and I used it for [HartfordJS.com](http://hartfordjs.com), but I wanted something more customizable. GitHub Pages restricts [custom plugins](http://jekyllrb.com/docs/plugins/) for security reasons, which is a bit limiting. I can still use GitHub Pages for free hosting, as long as I keep my build process offline or elsewhere.
 
