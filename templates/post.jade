@@ -1,0 +1,25 @@
+extends layout
+
+block prepend title
+  | #{ page.title + " - "}
+
+block header
+  h1= page.title
+
+block content
+  section#posts.article
+    h3
+      i.icon-file 
+      | 
+      = page.title
+    p
+      time(datetime=page.date)= moment.utc(page.date).format('DD MMM YYYY')
+    
+    != page.html
+
+    div#disqus_thread
+    noscript Please enable JavaScript to view the 
+      a(href='http://disqus.com/?ref_noscript') comments powered by Disqus.
+
+block pageScript
+  script(src='/js/disqus.js')

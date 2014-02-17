@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "lodash": "2.4.x",
+    "moment": "2.3.x"
+  },
+  "repository": "none"
+}
