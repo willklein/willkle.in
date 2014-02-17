@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "lodash": "2.4.x",
-    "moment": "2.3.x"
+    "moment": "2.3.x",
+    "wintersmith": "2.0.x"
   },
   "repository": "none"
 }
