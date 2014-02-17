@@ -8,7 +8,7 @@ block content
       | Posts
 
     - var posts = _.chain(contents['posts']._.pages).sortBy(function(item) {
-    -   return item.metadata['date'];
+    -   return -item.metadata['date'];
     - }).value()
 
     each post in posts
