@@ -1,0 +1,15 @@
+box: wercker/nodejs
+# Build definition
+build:
+  # The steps that will be executed on build
+  steps:
+  steps:
+    - npm-install
+    - script:
+        name: wintersmith build
+        code: ./node_modules/.bin/wintersmith build -v -o ./build
+deploy:
+  steps:
+    - gh-pages:
+        token: $GIT_TOKEN
+        basedir: build
