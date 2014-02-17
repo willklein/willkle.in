@@ -3,6 +3,7 @@ title: Building a User Group
 date: 2013-09-08
 template: post.jade
 ---
+
 This is the story of a user group: how it was conceived, put together, and some lessons learned along the way. I'm still new at this, but hopefully someone else will find this useful in their own pursuit of community.
 
 I originally conceived of the idea three years ago. I was doing a lot of front-end work with JavaScript and jQuery at the time. I was the only dev at my company doing this kind of work, a lonely island. Naturally, I looked around for a user group where I could talk with other devs about front-end. When I didn't find one, I set out to organize it myself. If only it was that simple. I posted on the jQuery meetups site, but didn't hear back from enough people to make it worth pursuing.
