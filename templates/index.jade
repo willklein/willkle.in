@@ -3,7 +3,7 @@ extends layout
 block content
   section#posts
     h3
-      i.icon-file 
+      i.fa.fa-file-o
       | 
       | Posts
 
@@ -22,7 +22,7 @@ block content
 
   section#projects
     h3
-      i.icon-file 
+      i.fa.fa-folder-o
       | 
       | Projects
 
@@ -32,7 +32,7 @@ block content
 
     each project in projects
       p
-        i(class='icon-#{project.metadata.icon}')
+        i(class='fa fa-#{project.metadata.icon}')
         | 
         if project.metadata.link
           a(href=project.metadata.link)= project.title
@@ -41,7 +41,7 @@ block content
 
   section#talks
     h3
-      i.icon-file 
+      i.fa.fa-comment-o
       | 
       | Talks
 
@@ -54,7 +54,7 @@ block content
       p
         time(datetime=talk.date)= moment.utc(talk.date).format('DD MMM YYYY')
         | 
-        i.icon-arrow-right
+        i.fa.fa-arrow-right
         | 
         if talk.metadata.titleHtml
           != title

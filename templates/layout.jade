@@ -10,11 +10,13 @@ html(lang='en', xmlns='http://www.w3.org/1999/html')
     script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
 
     link(href='/css/main.css', rel='stylesheet')
-    link(href='http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css', rel='stylesheet')
-    link(href='http://fonts.googleapis.com/css?family=ABeeZee', rel='stylesheet', type='text/css')
+    link(href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css', rel='stylesheet')
+    link(href='//fonts.googleapis.com/css?family=ABeeZee', rel='stylesheet', type='text/css')
 
   body(data-spy='scroll', data-target='.subhead', data-offset='50')
+
     .container
+
       header#overview
         #profile
           h1
@@ -22,23 +24,25 @@ html(lang='en', xmlns='http://www.w3.org/1999/html')
               img#profileImg.img-rounded(src='/img/profile.jpg')
               | 
               | Will Klein
+
           .subnav
             ul.nav.nav-pills
               li
                 a(target='_blank', href='https://github.com/willklein', title='Github')
-                  i.icon-github-sign
+                  i.fa.fa-github-square
               li
                 a(target='_blank', href='https://twitter.com/willslab', title='Twitter')
-                  i.icon-twitter-sign
+                  i.fa.fa-twitter-square
               li
                 a(target='_blank', href='https://plus.google.com/u/0/101735064507096591711', title='Google+')
-                  i.icon-google-plus-sign
+                  i.fa.fa-google-plus-square
               li
                 a(target='_blank', href='http://linkedin.com/in/willklein', title='LinkedIn')
-                  i.icon-linkedin-sign
+                  i.fa.fa-linkedin-square
               li
                 a(target='_blank', href='http://stackoverflow.com/users/1239485/will-klein', title='Stack Overflow')
-                  i.icon-ok-sign
+                  i.fa.fa-stack-overflow
+
         aside
           !=contents['about.md'].html
 
@@ -48,7 +52,7 @@ html(lang='en', xmlns='http://www.w3.org/1999/html')
       section#footer
         block footer
 
-    script(src='http://netdna.bootstrapcdn.com/jquery/jquery.min.js')
+    script(src='//netdna.bootstrapcdn.com/jquery/jquery.min.js')
     script(src='/js/clicky.js')
     script(src='/js/ga.js')
 
