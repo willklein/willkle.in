@@ -15,7 +15,7 @@ block content
       p
         time(datetime=post.date)= moment.utc(post.date).format('DD MMM YYYY')
         | 
-        i.icon-arrow-right
+        i.fa.fa-arrow-right
         | 
         a(href=post.url)= post.title
 
@@ -64,4 +64,6 @@ block content
         | @ #{talk.metadata.location}
 
 block footer
+  i.fa.fa-code
+  | 
   a(href='https://github.com/willklein/willkle.in') view source
