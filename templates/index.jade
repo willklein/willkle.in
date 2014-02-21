@@ -27,7 +27,7 @@ block content
       | Projects
 
     - var projects = _.chain(contents['projects']._.pages).sortBy(function(item) {
-    -   return item.metadata['date'];
+    -   return item.metadata['order'];
     - }).value()
 
     each project in projects
