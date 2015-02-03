@@ -2,5 +2,5 @@
 title: HartfordJS
 order: 1
 icon: group
-link: http://hartfordjs.com
+link: http://hartfordjs.github.io/hartfordjs.com/
 ---
