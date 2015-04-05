@@ -19,6 +19,26 @@ block content
         | 
         a(href=post.url)= post.title
 
+
+  section#projects
+    h3
+      i.fa.fa-folder-o
+      | 
+      | Projects
+
+    - var projects = _.chain(contents['projects']._.pages).sortBy(function(item) {
+    -   return item.metadata['order'];
+    - }).value()
+
+    each project in projects
+      p
+        i(class='fa fa-#{project.metadata.icon}')
+        | 
+        if project.metadata.link
+          a(href=project.metadata.link)= project.title
+        else
+          = project.title
+
   section#talks
     h3
       i.fa.fa-comment-o

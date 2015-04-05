@@ -1,6 +1,6 @@
 ---
 title: HartfordJS
-order: 1
+order: 2
 icon: group
 link: http://hartfordjs.github.io/hartfordjs.com/
 ---
