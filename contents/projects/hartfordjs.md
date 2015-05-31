@@ -1,6 +1,6 @@
 ---
 title: HartfordJS
-order: 2
+order: 3
 icon: group
 link: http://hartfordjs.com/
 ---
