@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Personal site of Will Klein",
   "scripts": {
-    "build": "wintersmith build -v -o ./build"
+    "clean": "rm -rf build/*",
+    "build": "npm run clean && wintersmith build -v -o ./build",
+    "start": "npm run build && http-server build"
   },
   "repository": {
     "type": "git",
