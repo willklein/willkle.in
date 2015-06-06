@@ -7,9 +7,11 @@ block content
       | 
       | Posts
 
-    - var posts = _.chain(contents['posts']._.pages).sortBy(function(item) {
-    -   return -item.metadata['date'];
-    - }).value()
+    - var posts = _.chain(contents['posts']._.pages).filter(function(item) {
+    -     return !item.metadata['draft'];
+    -   }).sortBy(function(item) {
+    -     return -item.metadata['date'];
+    -   }).value();
 
     each post in posts
       p
