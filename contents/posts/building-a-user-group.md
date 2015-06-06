@@ -4,7 +4,7 @@ date: 2013-09-08
 template: post.jade
 ---
 
-This is the story of a user group: how it was conceived, put together, and some lessons learned along the way. I'm still new at this, but hopefully someone else will find this useful in their own pursuit of community.
+This is the story of a user group: how it was conceived, put together, and some lessons learned along the way. I'm no expert at this, but hopefully you will find this useful in your own pursuit of community.
 
 I originally conceived of the idea three years ago. I was doing a lot of front-end work with JavaScript and jQuery at the time. I was the only dev at my company doing this kind of work, a lonely island. Naturally, I looked around for a user group where I could talk with other devs about front-end. When I didn't find one, I set out to organize it myself. If only it was that simple. I posted on the jQuery meetups site, but didn't hear back from enough people to make it worth pursuing.
 
@@ -38,7 +38,7 @@ For our first two meetings, we did five lightning talks each. It worked out grea
 
 Get a sponsor if you can. We went with a recruiting company we knew very well. They've supplied food and paid the venue fee when applicable.
 
-Show up very early. People will arrive early especially if they are new to the event. Be there to greet them and make them feel welcome.
+Show up about 30 minutes early. People may arrive early especially if they are new to the event. Be there to greet them and make them feel welcome.
 
 A lot of groups use Meetup.com. I opted not to, going with a more tailored approach. I setup a simple website on GitHub Pages, and we use GitHub Issues for planning topics to discuss. I announce meetings on Google Groups and Twitter, and manage RSVPs on Eventbrite.
 
@@ -46,10 +46,10 @@ Empower anyone that volunteers. If you are so lucky, let go of the reigns and le
 
 *Do I need to be a "people" person?*
 
-If you already find it easy to meet new people and bring them together, kudos, you have no excuses. If you're the opposite, don't let that stop you. Others would probably call me outgoing and social. Underneath my friendly exterior is a shy, scared-to-say-hi introvert. I overcome that little by little, and I promise it gets easier with practice.
+If you already find it easy to meet new people and bring them together, kudos, you have no excuses. If you're the opposite, don't let that stop you. I may appear outgoing and social, but underneath I'm a shy, scared-to-say-hi introvert. I overcome that little by little, and I promise it gets easier with practice.
 
 Starting and running a group is absolutely rewarding. I'll never forget our first meeting; before we had our talks, everyone was absolutely buzzing in conversation. I had a hard time getting everyone to settle down so we could begin. I was thrilled that people wouldn't stop talking to each other. This has been a recurring "problem."
 
-Starting and running a group can also be exhausting. Your other endeavors such as personal projects or open source may suffer; adjust your personal expectations appropriately. Since starting the group, I've seen my peers blog more and start their own open source projects. I've seen them produce useful contributions to the community, and at first, I felt inadequate with my own work. I might have remained so if not for one of those peers pointing something out. He had been doing this work only recently because he had been given the chance to talk to others when it was only an idea. Because of the community we've built up, we are seeing more of us get involved in blogging, open source, and personal projects.
+Starting and running a group can also be exhausting. Other endeavors such as personal projects or open source work may suffer; adjust your personal expectations appropriately. Since starting the group, I've seen my peers blog more and start their own open source projects. I've seen them produce useful contributions to the community, and at first, I felt inadequate with my own work. Then one of those peers pointed something out. He had been publishing more work because he was given the chance to talk to others when it was only an idea. Because of the community we've built up, we are seeing more of us get involved in open source and writing blog articles.
 
-Hopefully I've convinced you of the value of local developer communities along the way. If you already attend or know of a user group that fits you, realize what it means to not only you, but others, that you attend and stay involved. If your area lacks support in a given technology area, do something about it. It doesn't take any special skills, just the desire to share and learn with others.
+Hopefully I've convinced you of the value of local developer communities along the way. If you already attend or know of a user group that fits you, realize what it means not only to you, but to others, that you attend and stay involved. If your area lacks support in a given technology area, do something about it. It doesn't take any special skills, just the desire to share and learn with others.
