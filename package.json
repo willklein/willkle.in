@@ -1,8 +1,20 @@
 {
-  "dependencies": {
-    "lodash": "2.4.x",
-    "moment": "2.3.x",
-    "wintersmith": "2.0.x"
+  "name": "willkle.in",
+  "version": "1.0.0",
+  "description": "Personal site of Will Klein",
+  "scripts": {
+    "build": "wintersmith build -v -o ./build"
   },
-  "repository": "none"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willklein/willkle.in.git"
+  },
+  "author": "Will Klein",
+  "license": "MIT",
+  "homepage": "http://willkle.in",
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "moment": "^2.10.3",
+    "wintersmith": "^2.2.0"
+  }
 }
