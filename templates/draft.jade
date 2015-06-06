@@ -1,0 +1,18 @@
+extends layout
+
+block prepend title
+  | #{ "Draft - " + page.title + " - "}
+
+block header
+  h1= page.title
+
+block content
+  section#posts.article
+    h3
+      i.fa.fa-file-o
+      | 
+      = page.title
+    p
+      em Draft - this post is unfinished and may be revised or removed!
+    
+    != page.html
