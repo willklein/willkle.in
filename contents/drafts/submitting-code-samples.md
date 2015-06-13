@@ -28,6 +28,10 @@ In general, the most important priority for *any* code is maintainability. This 
 
 You may be tempted to choose a language you saw on the job listing. Do so if that's what the position is about, but often you have a bit of freedom here. You want to demonstrate your skill with a tool, so choose your best tool.
 
+### Use your preferred toolset
+
+Whether it's using a functional library or your favorite testing framework, don't be afraid to have an opinion and demonstrate it. Part of being a well-rounded developer means not only having a strong grasp of your language, but the ecosystem around it.
+
 ### Dig in
 
 Think about the problem at a deeper level than what the requirements specify. Research the problem space and consider things like internationalization. You don't need to over-engineer the solution, but your understanding of the domain will show in both your code and the interview.
