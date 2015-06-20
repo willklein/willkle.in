@@ -1,16 +1,18 @@
 ---
-title: Submitting Code Samples
+title: Tips for Submitting Code Samples
 date: 2015-06-06
 template: draft.jade
 ---
 
-Over the past twenty months I've interviewed about as many candidates for my team. As part of the interview process, we ask our candidates to submit a code sample. I've seen some great submissions, and some that could use some work. Here are some tips and best practices based on my experiences.
+As part of my team's interview process, we ask our candidates to submit a code sample. We give them a choice of problems, ask them to spend a couple hours, and invite them in for a code review. The exercise itself is not very difficult, but this is a critical step in getting to know what kind of developer someone is.
+
+After learning from submissions of all levels, I'd like to share some tips and best practices based on my experiences.
 
 ### Take your time
 
-This can be tricky. Maybe you were asked to spend a couple hours on the assignment, so you could stick to that as a time limit. Perhaps you're doing this after a long day at work, and you're up staying past your bedtime. Whatever the case may be, I've seen a lot of submissions where the candidate stuck to a suggested or self-imposed time limit, and it showed.
+This can be tricky. Maybe you were asked to spend a couple hours on the assignment, so you could stick to that as a time limit. Perhaps you're doing this after a long day at work, or you're staying up late to make the time. Whatever the case may be, I've seen a lot of submissions where the candidate stuck to a suggested or self-imposed time limit, and it showed.
 
-If you need to, use version control to commit your work at your time limit, but keep going if you can.
+If you need to, use version control to commit your work at your time limit, but keep going if you can. Even after you've submitted the solution, don't be afraid to keep working on it. Ask if you're not sure, but you can probably make changes until the day of the interview.
 
 ### Submit work you're proud of
 
@@ -34,21 +36,19 @@ Whether it's using a functional library or your favorite testing framework, don'
 
 ### Dig in
 
-Think about the problem at a deeper level than what the requirements specify. Research the problem space and consider things like internationalization. You don't need to over-engineer the solution, but your understanding of the domain will show in both your code and the interview.
+Great developers don't just implement a spec, they build something for someone else to use. Think about the problem space at a deeper level than what the requirements specify. You don't need to over-engineer the solution, but your understanding of the domain will show in both your code and the interview.
 
 ### Solve it yourself
 
-This may be obvious, but I sometimes hear, "well, if I did this for real, I would research existing solutions." Yeah, you might, but this is about *your* abilities. It's OK to look up docs and APIs, but avoid using someone else's implementation.
+This may be obvious, but I sometimes hear, "well, if I did this for real, I would research existing solutions." Yeah, you might, but this is about *your* abilities. It's OK to look up docs and APIs, or to use libraries where it makes sense, but avoid copying someone else's design.
 
 ### Put it down for a couple days
 
 Coming back to your code after the dust has settled will give you a fresh perspective. You'll spot minor improvements, and potentially, come up with a better design. Your brain has probably been running a subconscious background process since you started, so see what it comes up with.
 
-Even after you've submitted the solution, don't be afraid to keep working on it. Ask if you're not sure, but you can probably make changes until the day of the interview.
+### Experiment
 
-### Use branches
-
-Branches can be used to demonstrate multiple approaches as part of a single solution. You may experiment with different designs to find the optimal solution. If you try an approach that doesn't work, keep it around on a branch. I appreciate hearing what a candidate tried, and how they evolved their design.
+When searching for the best solutions, we sometimes experiment with different designs to see what works. If you try an approach that doesn't work, keep it around on a branch. I appreciate hearing what a candidate tried, and how they evolved their design.
 
 ### Write a README
 
