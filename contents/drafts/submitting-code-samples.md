@@ -6,7 +6,7 @@ template: draft.jade
 
 As part of my team's interview process, we ask our candidates to submit a code sample. We give them a choice of problems, ask them to spend a couple hours, and invite them in for a code review. The exercise itself is not very difficult, but this is a critical step in getting to know what kind of developer someone is.
 
-After learning from submissions of all levels, I'd like to share some tips and best practices based on my experiences.
+After learning from submissions of all levels, I'd like to share some tips and best practices. While I hope they are applicable to any code submission, they are based on my opinions and experiences; results may vary.
 
 ### Take your time
 
