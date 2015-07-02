@@ -4,7 +4,7 @@ date: 2015-06-06
 template: draft.jade
 ---
 
-As part of my team's interview process, we ask our candidates to submit a code sample. We give them a choice of problems, ask them to spend a couple hours, and invite them in for a code review. The exercise itself is not very difficult, but this is a critical step in getting to know what kind of developer someone is.
+As part of my team's interview process, we ask our candidates to submit a code sample. We give them a choice of problems, ask them to spend a couple hours, and invite them in for a code review. The exercise itself is not very difficult, but it's a critical step in getting to know a developer.
 
 After learning from submissions of all levels, I'd like to share some tips and best practices. While I hope they are applicable to any code submission, they are based on my opinions and experiences; results may vary.
 
@@ -16,7 +16,7 @@ If you need to, use version control to commit your work at your time limit, but 
 
 ### Submit work you're proud of
 
-You should not only spend as much time as you need, but ultimately, you should submit work you're proud of. It should not be missing anything you'd do for production code, so write tests, refactor, format, and polish. Not to intimidate you, but this sample should be representative of your best work. Don't worry about whether your best is "good enough." Focus on doing what you know how to do, to the best of your ability.
+You should not only spend as much time as you need, but ultimately, you should submit work you're proud of. Treat it like production code; write tests, refactor, and polish. Not to intimidate you, but this sample should be representative of your best work. Don't worry about whether your best is "good enough." Focus on doing what you know how to do, to the best of your ability.
 
 ### Prioritize maintainability
 
@@ -48,11 +48,13 @@ Coming back to your code after the dust has settled will give you a fresh perspe
 
 ### Experiment
 
-When searching for the best solutions, we sometimes experiment with different designs to see what works. If you try an approach that doesn't work, keep it around on a branch. I appreciate hearing what a candidate tried, and how they evolved their design.
+When searching for the best solutions, we often experiment with different designs to find what works. Branch your code and try an alternate approach.
+
+If something doesn't work, keep it on a branch. I appreciate hearing what a candidate tried, and how they evolved their design.
 
 ### Write a README
 
-You're usually writing a self-contained, runnable project. Document how to run your code. It's also useful if it's hosted somewhere public like GitHub, to explain what it's about.
+You're usually writing a self-contained, runnable project. Document how to run your code. Also include a description of the problem, especially if it's hosted somewhere public like GitHub, 
 
 ### Be ready to learn
 
@@ -66,7 +68,7 @@ These suggestions are not nearly as important as the previous ones, but they cou
 
 * include a demo/test app
 * write build/test/run scripts - and include them in the README
-* test accessibility, performance, cross-browser, etc.
+* include accessibility testing,  performance benchmarks, etc.
 
 ### Further reading
 
