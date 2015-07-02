@@ -1,7 +1,7 @@
 ---
 title: Tips for Submitting Code Samples
-date: 2015-06-06
-template: draft.jade
+date: 2015-07-01
+template: post.jade
 ---
 
 As part of my team's interview process, we ask our candidates to submit a code sample. We give them a choice of problems, ask them to spend a couple hours, and invite them in for a code review. The exercise itself is not very difficult, but it's a critical step in getting to know a developer.
