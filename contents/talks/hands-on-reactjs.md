@@ -1,4 +1,3 @@
-
 ---
 title: Hands-On React.js
 date: 2015-09-17
