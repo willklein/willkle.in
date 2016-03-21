@@ -41,6 +41,29 @@ block content
 
   section#talks
     h2
+      i.fa.fa-heart-o
+      | 
+      | Conference Talks
+
+    - var conferences = _.chain(contents['conferences']._.pages).sortBy(function(item) {
+    -   return -item.metadata['date'];
+    - }).value()
+
+    each conference in conferences
+      - var title = conference.title != 'Untitled' ? conference.title : conference.metadata.titleHtml
+      p
+        time(datetime=conference.date)= moment.utc(conference.date).format('DD MMM YYYY')
+        | 
+        i.fa.fa-arrow-right
+        | 
+        if conference.metadata.titleHtml
+          != title
+        else
+          a(href=conference.metadata.link)!= title
+        | 
+        | @ #{conference.metadata.location}
+  
+    h2
       i.fa.fa-comment-o
       | 
       | Talks
