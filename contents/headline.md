@@ -1,1 +1,1 @@
-I'm a software engineer in Denver, CO. I build web applications in JavaScript. I also love ice cream.
+Engineering manager, software developer, and meetup organizer.
